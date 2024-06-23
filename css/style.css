@@ -1,0 +1,22 @@
+.btn-group .btn{
+    flex: 1 0 22%;
+    margin: 5px;
+    background-color: rgb(185,185,185);
+    color:black;
+}
+.btn-group .btn:nth-child(17),.btn-group .btn:nth-child(18){
+   flex: 1 0 10%;
+   background-color: rgb(185,185,185);
+}
+p{
+    color:blue;
+}
+.cardbody{
+    background-color: rgb(185,185,185);
+}
+.btn-group .btn-info{
+    color:rgb(13,110,253);
+}
+.btn-group .btn-danger{
+    color:red;
+}
