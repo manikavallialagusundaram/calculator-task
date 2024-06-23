@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded",() => {
         });
     });
     document.addEventListener("keyword",(Event) => {
-        if((event.key >= 0 && event.key <= 9) ||["+","-","*","/","%","=","Enter",
-        "Backspace","Escape"].includes(event.key)){
-            handleInput(event.key);
+        if((Event.key >= 0 && Event.key <= 9) ||["+","-","*","/","%","=","Enter",
+        "Backspace","Escape"].includes(Event.key)){
+            handleInput(Event.key);
         }else{
             alert("only numbers and basic operations are allowed");
         }
